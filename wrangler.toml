@@ -1,0 +1,16 @@
+name = "para-sempre"
+main = "src/worker.js"
+compatibility_date = "2026-10-07"
+assets = { directory = "./public", binding = "ASSETS" }
+
+[[d1_databases]]
+binding = "DB"
+database_name = "para-sempre"
+database_id = "COLOQUE-O-ID-DA-D1-AQUI"
+
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "para-sempre-media"
+
+[vars]
+PAGAR_API_BASE_URL = "https://api.pagar.co.mz/api/v1"
